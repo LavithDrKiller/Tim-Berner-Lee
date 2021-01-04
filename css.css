@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+#tim {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#Welcome {
+    background: linear-gradient(#07edde, #d807f0, #f5b20a, #16141c);
+    color: white;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: table;
+    opacity: .8;
+
+}
+
+#color {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.menu {
+    list-style: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 10;
+}
+
+.item {
+    float: left;
+    padding: 10px;
+    font-family: 'Pirata One', cursive;
+    color: white;
+    font-size: 30px;
+}
+.item:hover{
+    background-color: gold;
+}
+
